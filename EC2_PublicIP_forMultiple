@@ -1,0 +1,3 @@
+		Output “ec2_public_ip” {
+               Value = aws_instance.my_ec2_instance[*].public_ip
+}
