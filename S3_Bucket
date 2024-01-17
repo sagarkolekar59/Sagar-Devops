@@ -1,0 +1,8 @@
+S3 backet
+resource "aws_s3_bucket" "my_es3_bucket" {
+        bucket ="trainwithsagar-bucket59"
+        tags = {
+         Name = "Devops_sagarbucket"
+    }
+}
+
